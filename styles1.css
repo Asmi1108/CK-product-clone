@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #21134F;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav a {
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: solid;
+    background-color: #21134f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    max-width: 600px;
+}
+
+.hashtag {
+    background-color: #a27dec;
+    padding: 5px 10px;
+    border-radius: 9px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.hashtag:hover {
+    background-color: #cab4fa;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.session-info {
+    background-color: #fefeff;
+    color: #0f105c;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    text-decoration: solid underline;
+    text-align: left;
+}
+
+.pimage img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#about-programme {
+    margin-top: 50px;
+}
+
+#about-programme h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.reason {
+    background-color: #2E1A60;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+
+}
+
+.reason~p {
+    font-size: 3rem;
+}
+
+.reason-number1,
+.reason-number2,
+.reason-number3 {
+    background-color: #8057D1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+.reason h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 40px;
+    text-decoration: solid;
+}
+
+.reason p {
+    font-size: 1rem;
+    text-decoration: solid;
+}
+
+#enroll-now-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+.hash {
+    text-align: justify;
+}
+
+.enroll-now {
+    background-color: #2E1A60;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.enroll-now h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.enroll-now p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.enroll-now ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.enroll-now ul li {
+    margin-bottom: 10px;
+}
+
+.enroll-button {
+    background-color: #E6E5EC;
+    color: #21134F;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+footer {
+    background-color: #000000;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.ribbon {
+    color: #FFFFFF;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
